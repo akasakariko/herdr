@@ -295,6 +295,7 @@ impl HeadlessServer {
                 | Method::PaneEditScrollback(_)
                 | Method::PaneFocus(_)
                 | Method::PaneFocusDirection(_)
+                | Method::PaneMove(_)
                 | Method::PaneResize(_)
                 | Method::PaneSplit(_)
                 | Method::PaneSwap(_)
